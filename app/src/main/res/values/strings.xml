@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiplicationApp</string>
+    <string name="result_text">Kết quả: %1$d</string>
+    <string name="hint_number1">Nhập số thứ nhất</string>
+    <string name="hint_number2">Nhập số thứ hai</string>
+    <string name="calculate_button">Tính toán</string>
+    <string name="enter_valid_number">Vui lòng nhập số hợp lệ!</string>
+    <string name="error_invalid_input">Dữ liệu không hợp lệ!</string>
+    <string name="enter_two_numbers">Vui lòng nhập hai số!</string>
+    <string name="error_missing_numbers">Thiếu số để tính toán!</string>
+</resources>

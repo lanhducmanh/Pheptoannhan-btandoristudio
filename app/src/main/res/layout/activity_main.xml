@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Ô nhập số thứ nhất -->
+    <EditText
+        android:id="@+id/inputNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Nhập số thứ nhất"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Ô nhập số thứ hai -->
+    <EditText
+        android:id="@+id/inputNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Nhập số thứ hai"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Nút tính toán -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính toán"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Hiển thị kết quả -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả sẽ được hiển thị ở đây"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>
